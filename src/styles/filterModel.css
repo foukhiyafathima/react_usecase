@@ -1,5 +1,9 @@
 .filter-container {
     display: flex;
+    width: 100%;
+    .container-div {
+        width: 50%;
+    }
     .form-container {
         width: 25%;
         padding-left: 30px;

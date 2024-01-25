@@ -95,16 +95,7 @@ const FilterComponent: React.FC<ModelObject> = (data) => {
 
   return (
     <div className='filter-container'>
-      <div>
-        <h4>Results</h4>
-        <>
-          {(filteredData && filteredData.length > 0 ? 
-            <div>{JSON.stringify(filteredData, null, 2)}</div>  : <div>There is no data with this filters</div>
-          )}
-        </>
-        
-      </div>
-      <div>
+      <div className='container-div'>
         <h4>Filters:</h4>
         {data && <form>
           <div className='form-container'>
@@ -224,6 +215,14 @@ const FilterComponent: React.FC<ModelObject> = (data) => {
           </div>
         </form>}
 
+      </div>
+      <div className='container-div'>
+        <h4>Results</h4>
+        <>
+          {(filteredData && filteredData.length > 0 ? 
+            <div>{JSON.stringify(filteredData, null, 2)}</div>  : <div>There is no data with this filters</div>
+          )}
+        </>
       </div>
     </div>
   );

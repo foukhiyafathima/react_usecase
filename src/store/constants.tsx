@@ -1,0 +1,6 @@
+const MODELS = {
+    LOAD: "REQUEST_MODEL_DATA",
+    LOAD_SUCCESS: "RECEIVE_MODEL_DATA",
+};
+  
+export default MODELS;

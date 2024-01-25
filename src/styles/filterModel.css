@@ -1,0 +1,32 @@
+.filter-container {
+    display: flex;
+    .form-container {
+        width: 25%;
+        padding-left: 30px;
+        .form-group {
+            height: 100%;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 0;
+            width: 170px;
+            background-color: gainsboro;
+            border: 1px solid;
+        }
+        .form-group-label {
+            padding-bottom: 10px;
+        }
+        .form-group-controls {
+            display: flex;
+            padding-bottom: 10px;
+        }
+        .chip {
+            width: 50px;
+            border: 1px solid;
+            border-radius: 25px;
+            padding: 5px 5px;
+            text-align: center;
+        }
+    }
+}
